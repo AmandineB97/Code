@@ -1,0 +1,137 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,38,80,1);
+    color: white;
+    font-size: 1vw;
+    width: 70vw;
+    min-height: 100vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+a
+{
+    display: inline;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+header
+{
+    display: flex;
+    align-items: center;
+    word-spacing: 30px;
+}
+nav li 
+{
+    flex: 1 0 auto;
+    display: inline;
+}
+nav img
+{
+    max-width: 35px;
+}
+#logo
+{
+    align-self: flex-end;
+}
+#log img
+{
+    max-width: 16px;
+}
+#banniere
+{
+    height: 20vw;
+    width: 70vw;
+    background: url('background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#banniere_description
+{
+    position: absolute;
+    margin-left: 7vw;
+    margin-top: 5vw ;
+    margin-right: 7vw;
+    margin-bottom: 7vw;
+    color: white;
+}
+#banniere2
+{
+    height: 20vw;
+    width: 100%;
+    background: url('background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-size: 100;
+    background-position: center;
+}
+h1
+{
+    font-style: bold;
+    padding-left: 2.5vw;
+    padding-top: 3vw;
+}
+main
+{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 850px;
+}
+article
+{
+    display: flex;
+    max-height: 300px;
+}
+article section
+{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-left: 12px;
+}
+.un, .deux
+{
+    background-color: rgba(0,38,80,1);
+    margin-left: 1vw;
+    margin-top: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 3vw;
+    max-width: 30vw;
+}
+.trois, .quatre
+{
+    background-color: rgba(0,38,80,1);
+    margin-left: 1vw;
+    margin-top: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 3vw;
+    max-width: 30vw;
+}
+.un img, .deux img, .trois img, .quatre img
+{
+    width: 300px ;
+    height: 300px;
+}
+.more
+{
+    color: red;
+    align-self: center;
+}
+footer
+{
+    background-image: url('background3.jpg');
+}
+footer p
+{
+    margin-left: 2vw;
+    margin-top: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
